@@ -1,13 +1,13 @@
 //WORKING
 // --- ОФИЦИАЛНИ ДАТИ ---
-const START_DATE = new Date("Mar 16, 2026 00:00:00").getTime();
-const TARGET_DATE = START_DATE + (7 * 24 * 60 * 60 * 1000);
+//const START_DATE = new Date("Mar 16, 2026 00:00:00").getTime();
+//const TARGET_DATE = START_DATE + (7 * 24 * 60 * 60 * 1000);
 
 //const START_DATE = new Date().getTime() - (0.1 * 24 * 60 * 60 * 1000);
 //const TARGET_DATE = START_DATE + (7 * 24 * 60 * 60 * 1000);
 
-//const START_DATE = new Date().getTime() - (8 * 24 * 60 * 60 * 1000);
-//const TARGET_DATE = START_DATE + (7 * 24 * 60 * 60 * 1000);
+const START_DATE = new Date().getTime() - (8 * 24 * 60 * 60 * 1000);
+const TARGET_DATE = START_DATE + (7 * 24 * 60 * 60 * 1000);
 
 let gameData = { questions: [], easterEggs: [], finalPassword: "" };
 let questionsData = [];
