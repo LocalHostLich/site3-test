@@ -5,7 +5,6 @@
 
 //const START_DATE = new Date().getTime() - (0.1 * 24 * 60 * 60 * 1000);
 //const TARGET_DATE = START_DATE + (7 * 24 * 60 * 60 * 1000);
-
 const START_DATE = new Date().getTime() - (8 * 24 * 60 * 60 * 1000);
 const TARGET_DATE = START_DATE + (7 * 24 * 60 * 60 * 1000); 
 
