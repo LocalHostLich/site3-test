@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOOMSDAY PROTOCOL</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Oswald:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="start-overlay">
+        <h2>SYSTEM READY // WAITING FOR INPUT</h2>
+        <p>[ CLICK ANYWHERE TO ENGAGE ]</p>
+    </div>
+
+    <div id="stylish-notification">
+        <span>> УСТАНОВЕН НОВ ПАКЕТ ДАННИ: ВЪПРОС <span id="notif-q-num"></span> Е НАЛИЧЕН _</span>
+        <span id="close-notif" title="Затвори">[ X ]</span>
+    </div>
+
+    <div id="main-ui">
+        <h1 id="header" style="display: none;">ПИСМО</h1>
+
+        <h2 id="pre-start-text" style="display: none; line-height: 1.5;">ОЧАКВАЙТЕ СКОРО,<br>МОЛЯ ПРОВЕРЕТЕ ПО-КЪСНО
+            ОТНОВО</h2>
+
+        <div id="timer" style="display: none;">
+            <div class="unit-container">
+                <span id="days" class="digit">00</span><span class="label">DAYS</span>
+            </div>
+            <span>:</span>
+            <div class="unit-container">
+                <span id="hours" class="digit">00</span><span class="label">HRS</span>
+            </div>
+            <span>:</span>
+            <div class="unit-container">
+                <span id="minutes" class="digit">00</span><span class="label">MIN</span>
+            </div>
+            <span>:</span>
+            <div class="unit-container">
+                <span id="seconds" class="digit">00</span><span class="label">SEC</span>
+            </div>
+        </div>
+
+        <div id="final-zone" style="display: none;">
+            <p style="margin-bottom: 10px; font-size: 0.9rem; opacity: 0.7;">> ВЪВЕДИ 7-ЦИФРЕН КОД ЗА ДОСТЪП</p>
+            <input type="text" id="final-password" placeholder="КОД" autocomplete="off">
+            <button id="final-btn">[ ИНИЦИИРАЙ ]</button>
+        </div>
+    </div>
+
+    <div id="question-nav" style="display: none;"></div>
+
+    <div id="question-modal" class="popup-modal">
+        <div class="modal-header">
+            <h3 id="modal-title">ВЪПРОС I</h3>
+        </div>
+        <div class="modal-body" style="width: 100%; display: flex; flex-direction: column; align-items: center;">
+            <p id="question-text" style="text-align: center; margin-bottom: 20px;"></p>
+            <input type="text" id="answer-input" placeholder="ОТГОВОР" autocomplete="off">
+
+            <div id="error-msg"></div>
+            <div id="success-msg"></div>
+
+            <div class="hint-icons-container">
+                <p class="hint-label">> ПОМОЩНИ ОПЦИИ <<< /p>
+                        <div class="hint-icons">
+                            <div id="hint-music" class="hint-circle" title="Музикална помощ">🎵</div>
+                            <div id="hint-friend" class="hint-circle" title="Помощ от експерти">👤</div>
+                        </div>
+            </div>
+        </div>
+        <div class="btn-group">
+            <button id="submit-answer">ПРОВЕРИ</button>
+            <button id="close-modal" class="cancel-btn">ЗАТВОРИ</button>
+        </div>
+
+        <div id="friend-sidebar" class="sidebar">
+            <div id="experts-container" class="experts-wrapper"></div>
+        </div>
+    </div>
+
+    <div id="terminal-screen" style="display: none;"></div>
+
+    <div id="final-page" style="display: none;">
+        <h1 class="roadmap-title fade-element delay-1">CarniCraft Seasons RoadMap</h1>
+        <button id="open-roadmap-btn" class="fade-element delay-2">[ ОТВОРИ СНИМКА ]</button>
+        <p class="disclaimer fade-element delay-3">* не е финална версия, възможни са промени</p>
+    </div>
+
+    <div id="roadmap-modal" class="popup-modal" style="width: auto; max-width: 95vw; padding: 20px;">
+        <div style="width: 100%; display: flex; justify-content: flex-end; margin-bottom: 10px;">
+            <span id="close-roadmap" title="Затвори"
+                style="color: var(--error-red); cursor: pointer; font-weight: bold; font-family: sans-serif; font-size: 1.5rem;">[
+                X ]</span>
+        </div>
+        <img src="roadmap.jpg" alt="CarniCraft Roadmap"
+            style="max-width: 100%; max-height: 80vh; border: 2px solid var(--doom-green); box-shadow: 0 0 20px var(--doom-green);">
+    </div>
+
+    <div id="wednesday-modal" class="popup-modal" style="width: auto; max-width: 90vw; padding: 20px; z-index: 9999;">
+        <div style="width: 100%; display: flex; justify-content: flex-end; margin-bottom: 10px;">
+            <span id="close-wednesday" title="Затвори"
+                style="color: var(--error-red); cursor: pointer; font-weight: bold; font-family: sans-serif; font-size: 1.5rem;">[
+                X ]</span>
+        </div>
+        <img src="wednesday.jpg" alt="Wednesday Easter Egg"
+            style="max-width: 100%; max-height: 60vh; border: 2px solid var(--glitch-color); box-shadow: 0 0 30px var(--glitch-color);">
+        <h3
+            style="color: var(--glitch-color); text-align: center; margin-top: 15px; text-shadow: 0 0 10px var(--glitch-color);">
+            IT IS WEDNESDAY, MY DUDES!</h3>
+    </div>
+
+    <audio id="bg-music" src="music.MP3" loop></audio>
+    <audio id="tick-audio" src="tick.MP3"></audio>
+    <audio id="data-sound" src="data.MP3"></audio>
+    <audio id="hint-audio"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

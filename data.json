@@ -1,0 +1,222 @@
+{
+    "finalPassword": "ODQ1MjE5Mw==",
+    "easterEggs": [
+        "0YHRj9C00LA=",
+        "d2VkbmVzZGF5",
+        "d2VuZGVkYXk="
+    ],
+    "questions": [
+        {
+            "id": "I",
+            "q": "In the shadow of the Spanish peaks, we do not seek the sun to see. We embrace the gift that crawls within, for the Master’s voice is the only light we need. We are not blinded by the dark; we are the ones who have finally opened our eyes. Who are the ones who claim to see the light?",
+            "a": "bG9zIGlsdW1pbmFkb3M=",
+            "alt_a": "bG9zIGlsbHVtaW5hZG9z",
+            "err": "¡Un forastero! You have alerted the village. The wrong answer will be your last.",
+            "music": "qes_I.mp3",
+            "code": "8",
+            "experts": [
+                {
+                    "name": "Luis Sera",
+                    "img": "luis.jpg",
+                    "role": "Експерт"
+                },
+                {
+                    "name": "Leon Kennedy",
+                    "img": "leon.jpg",
+                    "role": "Агент"
+                },
+                {
+                    "name": "Ada Wong",
+                    "img": "ada.jpg",
+                    "role": "Шпионин"
+                },
+                {
+                    "name": "Ashley",
+                    "img": "ashley.jpg",
+                    "role": "Студент"
+                }
+            ]
+        },
+        {
+            "id": "II",
+            "q": "I’ve survived a hook-handed killer, a haunted mansion, and an alien invasion, yet I still can’t keep a boyfriend alive for more than one sequel. I’ve fought a possessed cat and outsmarted a videotape curse, all while looking confused in a school girl outfit. I am the girl who keeps screaming, no matter how many times the genre changes. What is my name?",
+            "a": "Y2luZHk=",
+            "err": "WAZZUUUUUP?! You got it wrong. Hang up the phone and try again.",
+            "music": "qes_II.mp3",
+            "code": "4",
+            "experts": [
+                {
+                    "name": "Shorty",
+                    "img": "shorty.jpg",
+                    "role": "Експерт"
+                },
+                {
+                    "name": "Brenda",
+                    "img": "brenda.jpg",
+                    "role": "Приятел"
+                },
+                {
+                    "name": "Ray",
+                    "img": "ray.jpg",
+                    "role": "Смел мъж"
+                },
+                {
+                    "name": "Doofy",
+                    "img": "doofy.jpg",
+                    "role": "Полицай"
+                }
+            ]
+        },
+        {
+            "id": "III",
+            "q": "The radio bleeds a Swedish tongue, speaking of an invasion from seventy-five years ago. But the broadcast is hollow without the one who watches from the balcony. Behind the bathroom door, she sobs; in the reflection of the glass, she smiles with a broken neck. She is the shadow that hitches a ride on your back. To silence her twitching and exit the loop, you must enter the six-digit ghost hidden in the transmission. What is the frequency of Lisa's nightmare?",
+            "a": "MjA0ODYz",
+            "err": "Don't touch that dial... The loop continues.",
+            "music": "qes_III.mp3",
+            "code": "5",
+            "experts": [
+                {
+                    "name": "Lisa's Ghost",
+                    "img": "lisa.jpg",
+                    "role": "Експерт"
+                },
+                {
+                    "name": "Norman",
+                    "img": "norman.jpg",
+                    "role": "Оцелял"
+                },
+                {
+                    "name": "Hideo",
+                    "img": "hideo.jpg",
+                    "role": "Създател"
+                },
+                {
+                    "name": "Митака",
+                    "img": "voice.jpg",
+                    "role": "Радио Глас"
+                }
+            ]
+        },
+        {
+            "id": "IV",
+            "q": "I am the white curtain that hides the rust. I am the static that screams when the darkness is near. To some, I am a place of rest; to others, I am a nightmare of flesh and metal. If you receive a letter from a dead wife, you will find me waiting at the end of the road. In our special place...",
+            "a": "c2lsZW50IGhpbGw=",
+            "err": "The radio static grows louder. You are wandering deeper into the fog.",
+            "music": "qes_IV.mp3",
+            "code": "2",
+            "experts": [
+                {
+                    "name": "James",
+                    "img": "james.jpg",
+                    "role": "Експерт"
+                },
+                {
+                    "name": "Mary",
+                    "img": "mary.jpg",
+                    "role": "Съпруга"
+                },
+                {
+                    "name": "Maria",
+                    "img": "maria.jpg",
+                    "role": "Илюзия"
+                },
+                {
+                    "name": "Pyramid",
+                    "img": "pyramid.jpg",
+                    "role": "Палач"
+                }
+            ]
+        },
+        {
+            "id": "V",
+            "q": "The surface is a wasteland of fire, and the sky is gone. We are the last echoes of humanity, buried under kilometers of salt and pressure. From Upsilon to Tau, we crawl through the dark, waiting for the Ark to launch. What is the name of the underwater sanctuary that became our tomb?",
+            "a": "cGF0aG9zLWlp",
+            "err": "Scan Failed. The WAU does not recognize your humanity. Try again.",
+            "music": "qes_V.mp3",
+            "code": "1",
+            "experts": [
+                {
+                    "name": "Simon",
+                    "img": "simon.jpg",
+                    "role": "Експерт"
+                },
+                {
+                    "name": "Catherine",
+                    "img": "catherine.jpg",
+                    "role": "Учен"
+                },
+                {
+                    "name": "WAU",
+                    "img": "wau.jpg",
+                    "role": "ИИ"
+                },
+                {
+                    "name": "Terry",
+                    "img": "terry.jpg",
+                    "role": "Мутант"
+                }
+            ]
+        },
+        {
+            "id": "VI",
+            "q": "I was put into a box when the fire was still hot, and taken out when the world had turned to ash. I am a doctor who heals with lead and iron, a Ph.D. I am the only soldier who doesn't know how many years have passed, for my eyes closed in New Mexico and opened on a train to nowhere. To the G-Man, I am an asset. To the Combine, I am a problem. Who am I? \n ACCESSING ENCRYPTED FILE... \n SUBJECT: 27-YEAR-OLD MALE. \n EDUCATION: Ph.D. MIT.\n  EQUIPMENT: REDACTED \n ",
+            "a": "ZHIuIGZyZWVtYW4=",
+            "err": "Time, Dr. Freeman? Is it really that time again? λ",
+            "music": "qes_VI.mp3",
+            "code": "9",
+            "experts": [
+                {
+                    "name": "G-Man",
+                    "img": "gman.jpg",
+                    "role": "Експерт"
+                },
+                {
+                    "name": "Alyx",
+                    "img": "alyx.jpg",
+                    "role": "Боец"
+                },
+                {
+                    "name": "Barney",
+                    "img": "barney.jpg",
+                    "role": "Охрана"
+                },
+                {
+                    "name": "Eli",
+                    "img": "eli.jpg",
+                    "role": "Доктор"
+                }
+            ]
+        },
+        {
+            "id": "VII",
+            "q": "The answer is not 'Yes', and it is not 'No'. It might be 'Maybe', but honestly... I don't know. If you ask me to repeat the question, I will only remind you that you have no authority over me anymore, because life is simply unfair. What is the title of my story?",
+            "a": "bWFsY29sbSBpbiB0aGUgbWlkZGxl",
+            "alt_a": "bWFsY29sbQ==",
+            "err": "Life is unfair...",
+            "music": "qes_VII.mp3",
+            "code": "3",
+            "experts": [
+                {
+                    "name": "Dewey",
+                    "img": "dewey.jpg",
+                    "role": "Експерт"
+                },
+                {
+                    "name": "Reese",
+                    "img": "reese.jpg",
+                    "role": "Брат"
+                },
+                {
+                    "name": "Hal",
+                    "img": "hal.jpg",
+                    "role": "Баща"
+                },
+                {
+                    "name": "Lois",
+                    "img": "lois.jpg",
+                    "role": "Майка"
+                }
+            ]
+        }
+    ]
+}
